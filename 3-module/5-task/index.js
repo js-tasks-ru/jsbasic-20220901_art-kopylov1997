@@ -9,9 +9,8 @@ function getMinMax(str) {
     }
   });
 
-  const obj = {};
-  obj.min = Math.min(...arrNumbers);
-  obj.max = Math.max(...arrNumbers);
-
-  return obj;
+  return {
+    min: Math.min(...arrNumbers),
+    max: Math.max(...arrNumbers)
+  };
 }
