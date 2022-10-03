@@ -1,5 +1,4 @@
-function getMinMax(str) {
-  // ваш код...
+function getMinMax(str) {пш
   let arr = str.split(' ');
   let arrNumbers = [];
 
